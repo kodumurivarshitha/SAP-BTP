@@ -12,7 +12,7 @@ sap.ui.define(["sap/m/MessageBox", "sap/ui/core/mvc/Controller", "sap/ui/Device"
         "So now the HTMLpress is working",
         {
           icon: MessageBox.Icon.INFORMATION,
-          title: "Message from HTML server by Aevin",
+          title: "Message from HTML server",
           actions: [MessageBox.Action.OK, MessageBox.Action.CANCEL],
           styleClass: bCompact ? "sapUiSizeCompact" : "",
           initialFocus: MessageBox.Action.CANCEL
@@ -28,7 +28,7 @@ sap.ui.define(["sap/m/MessageBox", "sap/ui/core/mvc/Controller", "sap/ui/Device"
         "So now the JSONpress is working",
         {
           icon: MessageBox.Icon.SUCCESS,
-          title: "Message from JSON server by Aevin",
+          title: "Message from JSON server",
           actions: [MessageBox.Action.OK, MessageBox.Action.CANCEL],
           styleClass: bCompact ? "sapUiSizeCompact" : "",
           initialFocus: MessageBox.Action.CANCEL
@@ -41,7 +41,7 @@ sap.ui.define(["sap/m/MessageBox", "sap/ui/core/mvc/Controller", "sap/ui/Device"
         "So now the XMLpress is working",
         {
           icon: MessageBox.Icon.WARNING,
-          title: "Message from XML server by Aevin",
+          title: "Message from XML server",
           actions: [MessageBox.Action.OK, MessageBox.Action.CANCEL],
           styleClass: bCompact ? "sapUiSizeCompact" : "",
           initialFocus: MessageBox.Action.CANCEL
